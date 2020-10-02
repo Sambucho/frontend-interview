@@ -1,0 +1,10 @@
+.Root {
+  position: relative;
+  width: 100%;
+}
+
+.Input {
+  width: 100%;
+  padding: 8px;
+  font-size: 1rem;
+}

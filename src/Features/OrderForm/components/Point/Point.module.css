@@ -1,0 +1,10 @@
+.Root {
+  position: relative;
+  width: 100%;
+  padding: 16px;
+  border: 1px solid #000000;
+}
+
+.AddressLabel {
+  padding-bottom: 8px;
+}
