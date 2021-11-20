@@ -1,7 +1,8 @@
 import React from 'react';
 import Loader from '../UI/Loader/Loader';
+import { delayPromise } from '../../utils/delay';
 
-const OrderPage = React.lazy(() => import('./pages/OrderPage'));
+const OrderPage = React.lazy(delayPromise(() => import('./pages/OrderPage')));
 
 const OrderForm: React.FC = () => {
   return (
